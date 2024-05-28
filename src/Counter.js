@@ -28,7 +28,7 @@ class Counter extends Component {
           type="number"
           value={this.state.increment}
           onChange={this.handleIncrementChange}
-          placeholder="Enter increment value"
+          placeholder="increment value input"
         />
         <button onClick={this.incrementCount}>Increment</button>
       </div>
